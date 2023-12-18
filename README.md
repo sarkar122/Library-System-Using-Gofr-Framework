@@ -8,6 +8,7 @@ This is a simple Go project that uses Gofr framework and provides a RESTful API 
 
 
 API Endpoints:
+
 GET/library/{id}: Get a details of a book by id.
 
 POST/book: Add new book into DB.
