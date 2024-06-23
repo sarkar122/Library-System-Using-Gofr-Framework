@@ -14,6 +14,9 @@ func main() {
 
 	s := datastore.New()
 	h := handler.New(s)
+	j := Review.New(s)
+	k := Save.New(s)
+	
 
 	app.GET("/library/{id}", h.GetByID)
 	app.POST("/library", h.Create)
